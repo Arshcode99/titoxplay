@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TiToxPlay | A Tic Tac toe Multiplayer Game For 2 Friends, family members or Single Persons :( | A Arshcode Product</title>
+</head>
+
+<body>
+<!--This sets up the boxes for the game. The box's are actual all in a line and separated by the <br> tag that returns the next line down making them in to 3 by 3 grid, You can change the grids by adding new canvas, just change the id with proceding number and onclick events-->
+    <div id="box">
+        <h1> TiToxPlay </h1>
+        <span> A <a href="https://arshcode.vercel.app">Arshcode</a> Product</span>
+        <p>This is a Multiplayer Game, The Person who will start first will get " X " and Second will get " O "</p>
+        <br>
+        <canvas height="100" id="canvas1" onclick="canvasClicked(1)" style="border:2px solid black" width="100"></canvas>
+        <canvas height="100" id="canvas2" onclick="canvasClicked(2)" style="border:2px solid black" width="100"></canvas> <canvas height="100" id="canvas3" onclick="canvasClicked(3)" style="border:2px solid black" width="100"></canvas><br>
+        <canvas height="100" id="canvas4" onclick="canvasClicked(4)" style="border:2px solid black" width="100"></canvas> <canvas height="100" id="canvas5" onclick="canvasClicked(5)" style="border:2px solid black" width="100"></canvas> <canvas height="100" id="canvas6" onclick="canvasClicked(6)" style="border:2px solid black" width="100"></canvas><br>
+        <canvas height="100" id="canvas7" onclick="canvasClicked(7)" style="border:2px solid black" width="100"></canvas> <canvas height="100" id="canvas8" onclick="canvasClicked(8)" style="border:2px solid black"width="100"></canvas> 
+        <canvas height="100" id="canvas9" onclick="canvasClicked(9)" style="border:2px solid black" width="100"></canvas><br><br>
+        <span id="message"></span>
+    </div>
+
+    <!-- Our javascript File  -->
+    <script src="app.js"></script>
+</body>
+</html>
